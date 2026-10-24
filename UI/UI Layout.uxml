@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Aster.uss?fileID=7433441132597879392&amp;guid=bd25583ecdfcbdd48ade60a0ded6be02&amp;type=3#Aster"/>
+    <ui:Label text="255" name="ScoreLabel" style="top: 2%; align-self: center; font-size: 28px; color: rgb(209, 209, 209); -unity-text-align: upper-center; -unity-font-style: bold; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 1.5px 0 1.2px rgb(0, 0, 0); letter-spacing: 1px; -unity-font-definition: url(&quot;project://database/Assets/UI/Audex-Regular.ttf?fileID=12800000&amp;guid=61affa69497acf24482f83549cd870d8&amp;type=3#Audex-Regular&quot;); background-color: rgba(255, 255, 255, 0); background-repeat: no-repeat no-repeat; width: 100%; min-width: auto; max-width: none; background-image: none; -unity-background-image-tint-color: rgb(154, 76, 76);"/>
+    <ui:GroupBox name="GameOverMenu" style="width: 50%; height: 55%; align-items: center; justify-content: space-around; align-self: center; top: 10%; display: none;">
+        <ui:Label text="VICTORY!" name="GameOverLabel" style="-unity-font-definition: url(&quot;project://database/Assets/UI/Audex-Regular.ttf?fileID=12800000&amp;guid=61affa69497acf24482f83549cd870d8&amp;type=3#Audex-Regular&quot;); -unity-text-align: middle-center; text-shadow: 0.2px 0 1px rgba(0, 0, 0, 0); color: rgb(226, 226, 226);"/>
+        <ui:GroupBox name="" style="align-items: center; justify-content: space-around; align-content: flex-start; align-self: center; width: 100%; height: 70%; top: auto; display: flex;">
+            <ui:Button text="CONTINUE" name="ContinueButton" style="align-self: center; -unity-text-align: middle-center; bottom: auto; top: auto; left: auto;"/>
+            <ui:Button text="RESTART" name="RestartButton" style="align-self: center; -unity-text-align: middle-center; bottom: auto; top: auto;"/>
+            <ui:Button text="MAIN MENU" name="MainMenuButton" style="align-self: center; -unity-text-align: middle-center; bottom: auto; top: auto;"/>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

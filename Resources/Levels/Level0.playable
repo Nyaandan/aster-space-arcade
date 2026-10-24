@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8552318057354658865
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 9.116666666666667
+  position: {x: -19.958221, y: 3.0394025}
+  direction: {x: 0.92429984, y: -0.38166717}
+  speed: 12
+--- !u!114 &-7954631753712940898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 1
+  position: {x: -12, y: -4}
+  direction: {x: 1, y: 1}
+  speed: 10
+--- !u!114 &-6985117676016685736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a16748d9461eae46a725db9776d5390, type: 3}
+  m_Name: Markers
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.MarkerTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &-6105324752653814106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 1
+  position: {x: 12, y: -4}
+  direction: {x: -1, y: 1}
+  speed: 10
+--- !u!114 &-5037038030741848002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae372c98e5a2c84e88bb7d4de2480dd, type: 3}
+  m_Name: Gamma Ray Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::GammaRaySpawnMarker
+  m_Time: 3.05
+  distanceToCenter: 3.8020241
+  orientation: 0.4895351
+  magnitude: 6.098836
+  burstDelay: 3
+  burstDuration: 4
+--- !u!114 &-4701107133074325897
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Comet Signal
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 1757395316064744581}
+    - {fileID: 3866829856972916945}
+    - {fileID: 1795066305297934362}
+--- !u!114 &-4165302975049422212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 1.85
+  position: {x: -0.028448105, y: 16.619644}
+  direction: {x: 0.0014954853, y: -0.99999887}
+  speed: 12
+--- !u!114 &-2718854624532179820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd340de64255542a69d1eb9694a621, type: 3}
+  m_Name: Comet Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawnMarker
+  m_Time: 1.5
+  position: {x: 0, y: -14}
+  target: {x: 0, y: 8}
+  speed: 8
+  pattern: 5
+--- !u!114 &-242979328417638534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 14.05
+  position: {x: -15.583513, y: -11.334635}
+  direction: {x: 0.7750026, y: 0.63195807}
+  speed: 12
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: Level0
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 4138206941168932431}
+  - {fileID: -4701107133074325897}
+  - {fileID: 1094515684692849407}
+  - {fileID: 4920716465199585825}
+  m_FixedDuration: 7
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &1094515684692849407
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Gamma Signal
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: -5037038030741848002}
+    - {fileID: 3813513962092540454}
+    - {fileID: 7275107038656529238}
+--- !u!114 &1757395316064744581
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd340de64255542a69d1eb9694a621, type: 3}
+  m_Name: Comet Spawn Marker(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawnMarker
+  m_Time: 5.116666666666666
+  position: {x: 17.27069, y: 31.132404}
+  target: {x: 3.829083, y: 6.6919284}
+  speed: 12
+  pattern: 10
+--- !u!114 &1795066305297934362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd340de64255542a69d1eb9694a621, type: 3}
+  m_Name: Comet Spawn Marker(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawnMarker
+  m_Time: 14.05
+  position: {x: 25.962824, y: 19.533089}
+  target: {x: 0.32949448, y: -5.582548}
+  speed: 12
+  pattern: 5
+--- !u!114 &3813513962092540454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae372c98e5a2c84e88bb7d4de2480dd, type: 3}
+  m_Name: Gamma Ray Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::GammaRaySpawnMarker
+  m_Time: 6.5
+  distanceToCenter: 4.6
+  orientation: 15
+  magnitude: 4
+  burstDelay: 3
+  burstDuration: 6
+--- !u!114 &3866829856972916945
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd340de64255542a69d1eb9694a621, type: 3}
+  m_Name: Comet Spawn Marker(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawnMarker
+  m_Time: 9.85
+  position: {x: -26.965311, y: 12.920968}
+  target: {x: 0.10434389, y: -9.943287}
+  speed: 12
+  pattern: 3
+--- !u!114 &4138206941168932431
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Asteroid Signal
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: -4165302975049422212}
+    - {fileID: 4629621131858435538}
+    - {fileID: -8552318057354658865}
+    - {fileID: -242979328417638534}
+--- !u!114 &4629621131858435538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6a026f4e5a95f478af090ec2a57a1a, type: 3}
+  m_Name: Asteroid Spawn Marker
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawnMarker
+  m_Time: 5.116666666666666
+  position: {x: 19.608206, y: -5.3124237}
+  direction: {x: -0.8736384, y: 0.48657566}
+  speed: 12
+--- !u!114 &4920716465199585825
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal of the End
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 8020667655692632447}
+--- !u!114 &6838499885638907503
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd340de64255542a69d1eb9694a621, type: 3}
+  m_Name: Comet Spawn Marker(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawnMarker
+  m_Time: 1.5
+  position: {x: 24.022863, y: -4.3654895}
+  target: {x: -4.9346046, y: -10.378727}
+  speed: 16
+  pattern: 5
+--- !u!114 &7275107038656529238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae372c98e5a2c84e88bb7d4de2480dd, type: 3}
+  m_Name: Gamma Ray Spawn Marker(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::GammaRaySpawnMarker
+  m_Time: 8.033333333333333
+  distanceToCenter: 4.6
+  orientation: 165
+  magnitude: 4
+  burstDelay: 3
+  burstDuration: 6
+--- !u!114 &8020667655692632447
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2a14f0efdd0b14ea10ffe7e8976c8b, type: 3}
+  m_Name: End Of Level Marker
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Logic.V2___Timeline.EndOfLevelMarker
+  m_Time: 30.3
